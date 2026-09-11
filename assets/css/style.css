@@ -447,3 +447,5 @@ html, body{
 .contact-download .k{font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--ink-faint); text-transform:uppercase;}
 .contact-download .v{font-size:15px; margin-top:3px; color:var(--ink);}
 .contact-download .copy-hint{font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--ink-faint);}
+
+.nav-cta{background:none; cursor:pointer;}

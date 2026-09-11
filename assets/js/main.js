@@ -98,3 +98,15 @@ document.querySelectorAll('.case-toggle').forEach(btn => {
 
 
 
+
+document.querySelectorAll('.nav-cta[data-copy]').forEach(btn => {
+  btn.addEventListener('click', async () => {
+    const text = btn.dataset.copy;
+    const original = btn.textContent;
+    try {
+      await navigator.clipboard.writeText(text);
+      btn.textContent = 'Copied!';
+      setTimeout(() => { btn.textContent = original; }, 1600);
+    } catch (e) {}
+  });
+});
