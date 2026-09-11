@@ -441,3 +441,9 @@ html, body{
 .module-group p{margin:0; font-size:13px; color:var(--ink-soft); line-height:1.55;}
 
 
+
+.contact-download{display:flex; justify-content:space-between; align-items:center; background:var(--panel); border:1px solid var(--line); border-radius:var(--radius-m); padding:18px 20px; text-decoration:none; transition:border-color .2s ease;}
+.contact-download:hover{border-color:var(--ink);}
+.contact-download .k{font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--ink-faint); text-transform:uppercase;}
+.contact-download .v{font-size:15px; margin-top:3px; color:var(--ink);}
+.contact-download .copy-hint{font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--ink-faint);}
